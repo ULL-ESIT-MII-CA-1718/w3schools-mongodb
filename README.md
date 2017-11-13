@@ -37,11 +37,6 @@ var shell = require("gulp-shell");
 gulp.task("pre-install-mongo", shell.task([
       "brew update && brew install mongodb",
 ]));
-
-gulp.task("pre-install", shell.task([
-      "npm i -g gulp static-server",
-      "npm install -g nodemon",
-]));
 ```
 
 
