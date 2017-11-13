@@ -80,9 +80,10 @@ Shut down the mongod from the mongo shell using the db.shutdownServer() method a
 
 The --shutdown option cleanly and safely terminates the mongod process. When invoking mongod with this option you must set the --dbpath option either directly or by way of the configuration file and the --config option.
 
-https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/#stop-mongod-processes
-
 WARNING: Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
+
+* [https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/#stop-mongod-processes](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/#stop-mongod-processes)
+
 
 
 The --shutdown option is available only on Linux systems.
