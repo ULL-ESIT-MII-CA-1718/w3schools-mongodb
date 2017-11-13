@@ -88,4 +88,9 @@ WARNING: Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
 
 The --shutdown option is available only on Linux systems.
 
+### Referencias
 
+#### Apuntes curso 16/17
+
+* [MongoDB](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongodb.html)
+* [Mongoose](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongoose.html)
