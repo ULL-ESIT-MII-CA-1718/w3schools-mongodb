@@ -28,7 +28,8 @@ build environment:
     target_arch: x86_64
 ```
 
-### Runnning the deamon
+
+### Installing mongodb
 
 ```js
 var gulp = require("gulp");
@@ -39,6 +40,7 @@ gulp.task("pre-install-mongo", shell.task([
 ]));
 ```
 
+### Runnning the deamon
 
 #### brew
 
