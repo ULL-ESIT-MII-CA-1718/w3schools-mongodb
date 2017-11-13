@@ -56,7 +56,7 @@ To stop mongodb if it's already running:
 
   brew services stop mongodb
 
-NOTE: I have not found the way to specify options for mongodb when running brew services dtart mongodb
+NOTE: I have not found the way to specify options for mongodb when running `brew services start mongodb`
 
 By default, MongoDB listens for connections from clients on port 27017, and stores data in the /data/db directory.
 
