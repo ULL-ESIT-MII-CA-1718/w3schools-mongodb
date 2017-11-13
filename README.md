@@ -73,8 +73,10 @@ To specify a dbPath for mongod to use as a data directory, use the --dbpath opti
 
 Shut down the mongod from the mongo shell using the db.shutdownServer() method as follows:
 
+```
   use admin
   db.shutdownServer()
+```
 
 The --shutdown option cleanly and safely terminates the mongod process. When invoking mongod with this option you must set the --dbpath option either directly or by way of the configuration file and the --config option.
 
