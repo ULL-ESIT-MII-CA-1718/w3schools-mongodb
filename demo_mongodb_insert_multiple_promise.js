@@ -18,6 +18,14 @@ MongoClient.connect(url).then(function(db) {
     { name: 'Chuck', address: 'Main Road 989'},
     { name: 'Viola', address: 'Sideway 1633'}
   ];
+  /*
+   * insertMany(docs, options, callback) {Promise if no callback passed }
+   *
+   * http://mongodb.github.io/node-mongodb-native/2.2/api/Collection.html#insertMany
+   * Inserts an array of documents into MongoDB. If documents passed in do not contain the _id field,
+   * one will be added to each of the documents missing it by the driver, mutating the document. This behavior
+   * can be overridden by setting the forceServerObjectId flag.
+  */
   db.collection("customers").insertMany(myobj).then(function(res) {
     console.log("Number of documents inserted: " + res.insertedCount);
     db.close();
