@@ -92,5 +92,6 @@ The --shutdown option is available only on Linux systems.
 
 #### Apuntes curso 16/17
 
+* [The Mongo Shell](https://docs.mongodb.com/manual/mongo/)
 * [MongoDB](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongodb.html)
 * [Mongoose](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongoose.html)
