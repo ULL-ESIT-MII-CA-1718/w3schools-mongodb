@@ -30,6 +30,7 @@ build environment:
 
 ### Runnning the deamon
 
+```js
 var gulp = require("gulp");
 var shell = require("gulp-shell");
 
@@ -41,6 +42,7 @@ gulp.task("pre-install", shell.task([
       "npm i -g gulp static-server",
       "npm install -g nodemon",
 ]));
+```
 
 
 #### brew
